@@ -11,7 +11,7 @@
     "stylelint-order"
   ],
   "rules": {
-    "value-keyword-case": ["lower", { "ignoreKeywords": ["dummyValue", "optimizeSpeed"] }],
+    "value-keyword-case": ["lower", {"camelCaseSvgKeywords": true, "ignoreKeywords": ["dummyValue", "optimizeSpeed", "currentColor"] }],
     "declaration-empty-line-before": "never",
     "string-quotes": "single",
     "font-family-name-quotes": "always-unless-keyword",
