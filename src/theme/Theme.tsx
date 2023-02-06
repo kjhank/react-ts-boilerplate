@@ -18,7 +18,13 @@ export const mainTheme: DefaultTheme = {
   },
   getColor: (color: keyof typeof mainTheme.colors = 'main') => mainTheme.colors[color],
   getFont: (family: keyof typeof mainTheme.fonts = 'text') => mainTheme.fonts[family],
-  getTransitions: (properties: string[], duration: keyof typeof mainTheme.transitions = 'default'): string => properties.map(property => `${property} ${mainTheme.transitions[duration] || mainTheme.transitions.default}ms`).join(', '),
+  getTransitions: (properties: string[] | string, duration: keyof typeof mainTheme.transitions = 'default'): string => {
+    if (typeof properties === 'object') {
+      return properties.map(property => `${property} ${mainTheme.transitions[duration] || mainTheme.transitions.default}ms`).join(', ');
+    }
+
+    return `${properties} ${mainTheme.transitions[duration]}ms`;
+  },
   transitions: {
     fast: '200',
     default: '400',
@@ -35,3 +41,4 @@ export const Theme = ({ children }: ThemeProps) => (
     {children}
   </ThemeProvider>
 );
+
