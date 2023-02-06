@@ -18,7 +18,7 @@
   },
   "exclude": ["node_modules"],
   "extends": "./tsconfig.paths.json",
-  "include": ["src"],
+  "include": ["src", "gatsby*.{ts,tsx}"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
 
