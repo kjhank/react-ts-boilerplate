@@ -1,7 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
-import './index.css';
 
 const ROOT_NODE = document.querySelector('#root');
 const root = createRoot(ROOT_NODE!);
