@@ -1,8 +1,12 @@
 {
-  "customSyntax": "postcss-scss",
   "extends": [
-    "stylelint-config-standard-scss",
-    "stylelint-config-styled-components"
+    "stylelint-config-standard"
+  ],
+  "overrides": [
+    {
+      "customSyntax": "@stylelint/postcss-css-in-js",
+      "files": ["**/*.tsx", "**/*.styled.ts"]
+    }
   ],
   "processors": [
     "stylelint-processor-styled-components"
@@ -11,9 +15,9 @@
     "stylelint-order"
   ],
   "rules": {
+    "function-no-unknown": [true, { "ignoreFunctions": ["/\\${/"] }],
     "value-keyword-case": ["lower", {"camelCaseSvgKeywords": true, "ignoreKeywords": ["dummyValue", "optimizeSpeed", "currentColor"] }],
     "declaration-empty-line-before": "never",
-    "string-quotes": "single",
     "font-family-name-quotes": "always-unless-keyword",
     "at-rule-no-unknown": [true, {
       "ignoreAtRules": ["function", "if", "mixin", "include", "each", "import"]
