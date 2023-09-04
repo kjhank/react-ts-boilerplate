@@ -20,7 +20,6 @@
     "styled-components": "^5.3.11"
   },
   "devDependencies": {
-    "@stylelint/postcss-css-in-js": "^0.38.0",
     "@types/node": "^18.17.14",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
@@ -39,6 +38,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.3.0",
     "postcss": "^8.4.29",
+    "postcss-styled-syntax": "^0.4.0",
     "postcss-syntax": "^0.36.2",
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^30.0.1",

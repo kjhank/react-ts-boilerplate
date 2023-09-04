@@ -4,11 +4,10 @@
   ],
   "overrides": [
     {
-      "customSyntax": "@stylelint/postcss-css-in-js",
       "files": [
-        "**/*.tsx",
-        "**/*.styled.ts"
-      ]
+        "**/*.{ts,tsx}"
+      ],
+      "customSyntax": "postcss-styled-syntax"
     }
   ],
   "plugins": [
