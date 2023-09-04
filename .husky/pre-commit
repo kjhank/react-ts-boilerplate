@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PACKAGE_COMMAND=yarn
+PACKAGE_COMMAND=pnpm
 
 if
   ! command -v PACKAGE_COMMAND &
