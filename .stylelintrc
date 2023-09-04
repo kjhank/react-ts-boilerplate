@@ -5,23 +5,50 @@
   "overrides": [
     {
       "customSyntax": "@stylelint/postcss-css-in-js",
-      "files": ["**/*.tsx", "**/*.styled.ts"]
+      "files": [
+        "**/*.tsx",
+        "**/*.styled.ts"
+      ]
     }
-  ],
-  "processors": [
-    "stylelint-processor-styled-components"
   ],
   "plugins": [
     "stylelint-order"
   ],
   "rules": {
-    "function-no-unknown": [true, { "ignoreFunctions": ["/\\${/"] }],
-    "value-keyword-case": ["lower", {"camelCaseSvgKeywords": true, "ignoreKeywords": ["dummyValue", "optimizeSpeed", "currentColor"] }],
+    "function-no-unknown": [
+      true,
+      {
+        "ignoreFunctions": [
+          "/\\${/"
+        ]
+      }
+    ],
+    "value-keyword-case": [
+      "lower",
+      {
+        "camelCaseSvgKeywords": true,
+        "ignoreKeywords": [
+          "dummyValue",
+          "optimizeSpeed",
+          "currentColor"
+        ]
+      }
+    ],
     "declaration-empty-line-before": "never",
     "font-family-name-quotes": "always-unless-keyword",
-    "at-rule-no-unknown": [true, {
-      "ignoreAtRules": ["function", "if", "mixin", "include", "each", "import"]
-    }],
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "function",
+          "if",
+          "mixin",
+          "include",
+          "each",
+          "import"
+        ]
+      }
+    ],
     "order/properties-order": [
       {
         "properties": [
