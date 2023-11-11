@@ -1,5 +1,5 @@
-import { ReactNode } from 'react';
+import React from 'react';
 
 export type ThemeProps = {
-  children: ReactNode;
+  children: React.ReactElement;
 };

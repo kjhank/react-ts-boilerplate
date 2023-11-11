@@ -17,37 +17,37 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.11"
+    "styled-components": "^6.1.1"
   },
   "devDependencies": {
-    "@types/node": "^18.17.14",
-    "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7",
-    "@types/styled-components": "^5.1.26",
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
-    "@vitejs/plugin-react": "^4.0.4",
-    "eslint": "^8.48.0",
+    "@types/node": "^20.9.0",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/styled-components": "^5.1.30",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@vitejs/plugin-react": "^4.1.1",
+    "eslint": "^8.53.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.1.0",
-    "eslint-import-resolver-typescript": "^3.6.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.3.0",
-    "postcss": "^8.4.29",
-    "postcss-styled-syntax": "^0.4.0",
+    "lint-staged": "^15.1.0",
+    "postcss": "^8.4.31",
+    "postcss-styled-syntax": "^0.5.0",
     "postcss-syntax": "^0.36.2",
-    "stylelint": "^15.10.3",
-    "stylelint-config-standard": "^30.0.1",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0",
     "stylelint-order": "^6.0.3",
     "typescript": "^5.2.2",
-    "vite": "^4.4.9",
+    "vite": "^4.5.0",
     "vite-plugin-eslint": "^1.8.1",
-    "vite-plugin-stylelint": "^4.3.0",
-    "vite-tsconfig-paths": "^4.2.0"
+    "vite-plugin-stylelint": "^5.2.0",
+    "vite-tsconfig-paths": "^4.2.1"
   },
   "lint-staged": {
     "*.ts*": [
@@ -59,5 +59,6 @@
   },
   "packageManager": "pnpm@8.6.1",
   "pre-commit": "lint",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }
