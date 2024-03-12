@@ -1,0 +1,16 @@
+.app-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+.app-logo {
+  height: 40vmin;
+  animation: spin infinite 20s linear;
+  pointer-events: none;
+}

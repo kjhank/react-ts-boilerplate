@@ -1,0 +1,5 @@
+@keyframes spin {
+  to {
+    rotate: z 360deg;
+  }
+}

@@ -1,0 +1,13 @@
+@import url('./globals/vars.css');
+@import url('./fonts/fonts.css');
+@import url('./globals/reset.css');
+@import url('./globals/keyframes.css');
+@import url('./components/global/index.css');
+
+body {
+  font-family: var(--f-body);
+}
+
+.app-wrapper {
+  text-align: center;
+}

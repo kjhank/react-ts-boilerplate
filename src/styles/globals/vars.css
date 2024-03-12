@@ -1,0 +1,15 @@
+:root {
+  /* --c => colors */
+  --c-accent: #7cac3e;
+  --c-main: rgb(35 45 105);
+  --c-sub: #fff;
+
+  /* --f => fonts */
+  --f-heading: 'Caveat Bush', serif;
+  --f-body: 'Atkinson Hyperlegible', sans-serif;
+
+  /* --t => transitions */
+  --t-fast: calc(var(--t-default, 400ms) / 2);
+  --t-default: 400ms;
+  --t-slow: calc(var(--t-default, 400ms) *2 2);
+}
