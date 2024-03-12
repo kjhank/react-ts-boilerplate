@@ -1,0 +1,40 @@
+@font-face {
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Atkinson Hyperlegible';
+    src: local('Atkinson Hyperlegible Italic'), local('AtkinsonHyperlegible-Italic'),
+        url('subset-AtkinsonHyperlegible-Italic.woff2') format('woff2'),
+        url('subset-AtkinsonHyperlegible-Italic.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Atkinson Hyperlegible';
+    src: local('Atkinson Hyperlegible Bold Italic'), local('AtkinsonHyperlegible-BoldItalic'),
+        url('subset-AtkinsonHyperlegible-BoldItalic.woff2') format('woff2'),
+        url('subset-AtkinsonHyperlegible-BoldItalic.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Atkinson Hyperlegible';
+    src: local('Atkinson Hyperlegible Regular'), local('AtkinsonHyperlegible-Regular'),
+        url('subset-AtkinsonHyperlegible-Regular.woff2') format('woff2'),
+        url('subset-AtkinsonHyperlegible-Regular.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Atkinson Hyperlegible';
+    src: local('Atkinson Hyperlegible Bold'), local('AtkinsonHyperlegible-Bold'),
+        url('subset-AtkinsonHyperlegible-Bold.woff2') format('woff2'),
+        url('subset-AtkinsonHyperlegible-Bold.woff') format('woff');
+    font-display: swap;
+}
+

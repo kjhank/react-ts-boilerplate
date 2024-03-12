@@ -12,8 +12,6 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    // eslintPlugin(),
-    // StylelintPlugin({ include: ['ts', 'tsx']}),
     tsconfigPaths()
   ],
 });
