@@ -1,1 +1,1 @@
-# Vite-based React + TS + styled components boilerplate with linters
+**This repository has been migrated to [Codeberg](https://codeberg.org/kjhank/react-ts-boilerplate).**
